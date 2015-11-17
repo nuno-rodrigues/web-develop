@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="store">
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>Angular JS Test</title>
+	</head>
+	<body class="container" ng-controller="StoreController as store">
+	
+		<h1 class="">Product {{"Store"}} # {{20+1}}</h1>
+		
+		<ul class="list-group">
+		
+			<li class="list-group-item" ng-repeat="product in store.products | limitTo:3 | orderBy: '+name'">
+				
+				<!-- 
+				
+				<h3 ng-include="'product-title.html'"></h3> 
+				
+				<h3 product-title></h3> 
+				
+				-->
+				
+				<product-title></product-title>
+					
+				<product-panels></product-panels>
+
+			</li>
+			
+		</ul>
+		
+		<script type="text/javascript" src="angular.js"></script>
+		<script type="text/javascript" src="angular-route.js"></script>
+		<script type="text/javascript" src="app-new.js"></script>
+		<script type="text/javascript" src="products.js"></script>
+		
+	</body>
+</html>

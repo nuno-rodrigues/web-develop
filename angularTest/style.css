@@ -1,0 +1,15 @@
+/*!
+nunorodrigues.16mb.com
+ */
+.ng-invalid.ng-dirty{
+	border-color: #FA787E;
+}
+
+.ng-valid.ng-dirty{
+	border-color: #78FA89;
+}
+
+.red .active a,
+.red .active a:hover {
+    background-color: red;
+}
