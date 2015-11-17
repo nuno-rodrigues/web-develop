@@ -4,7 +4,11 @@
 
 	<head>
 		<link rel="stylesheet" type="text/css" href="style.css" />
-		<title>css Test - Git Update</title>
+<<<<<<< HEAD
+		<title>css Test - Git Update - v0.2</title>
+=======
+		<title>css Test - Git Update v0.1</title>
+>>>>>>> be39cef4d781c879b94b6ca61fa0ade97b7e5ea1
 	</head>
 	<body>
 		
